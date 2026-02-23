@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Melo Fernandes | Portfólio</title>
+    
+    <link rel="icon" type="image/png" href="./assets/img/Ícone.gif">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        darkbg: '#18181b',    
+                        panel: '#27272a',     
+                        brand: '#2dd4bf',     
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darkbg text-gray-300 font-sans antialiased selection:bg-brand selection:text-darkbg">
+
+    <header class="min-h-screen flex flex-col justify-center items-center px-6 border-b border-gray-800 fade-in-section">
+        <div class="text-center md:text-right w-full max-w-5xl">
+            <h2 class="text-xl md:text-2xl font-light tracking-widest text-gray-400">DESIGN & CREATIVE</h2>
+            <h1 class="text-5xl md:text-8xl font-black text-brand uppercase tracking-tighter mt-2">MATHEUS</h1>
+            <h1 class="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter mt-[-10px]">MELO</h1>
+            <p class="mt-4 text-lg text-gray-500 tracking-widest uppercase font-semibold">Fernandes</p>
+        </div>
+    </header>
+
+    <section class="py-24 px-6 max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-center fade-in-section">
+        <div class="md:w-1/2">
+            <div class="border-t-4 border-brand w-12 mb-6"></div>
+            <h2 class="text-3xl font-black text-brand uppercase leading-none mb-2">ABOUT <span class="text-white font-light">ME</span></h2>
+            <p class="mt-6 text-base leading-relaxed text-gray-400">
+                Focado em criar narrativas visuais marcantes. Meu trabalho une design gráfico, motion e ilustração para construir identidades únicas. Menos enfeite, mais propósito e impacto direto.
+            </p>
+        </div>
+        <div class="md:w-1/2 grid grid-cols-2 gap-4">
+            <div class="aspect-square bg-panel rounded overflow-hidden border border-gray-800">
+                <img src="./assets/img/foto.png" alt="Matheus Melo Fernandes" class="w-full h-full object-cover">
+            </div>
+            <div class="aspect-square bg-brand rounded opacity-90 flex flex-col items-center justify-center p-4">
+                <span class="text-darkbg font-black text-xl text-center leading-tight">DESIGNER &<br>ARTIST</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 bg-panel border-y border-gray-800 fade-in-section">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex justify-end mb-16">
+                <div class="text-right">
+                    <div class="border-t-4 border-brand w-12 mb-6 ml-auto"></div>
+                    <h2 class="text-3xl font-black text-brand uppercase leading-none">GRAPHIC <span class="text-white font-light">DESIGN</span></h2>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="col-span-1 md:col-span-2 bg-[#222] aspect-video overflow-hidden rounded group relative flex items-center justify-center p-8 border border-gray-700">
+                    <img src="./assets/img/Projeto Logos Banco da Faculdade.jpg" alt="Nexabank Variantes" class="w-full h-full object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition duration-700">
+                    <div class="absolute bottom-4 left-6">
+                        <p class="text-[10px] text-gray-500 uppercase tracking-[0.2em]">Case Study: Nexabank</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-8">
+                    <div class="bg-darkbg flex-1 overflow-hidden rounded group relative border border-gray-700">
+                        <img src="./assets/img/Artesanato Aurea.jpg" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition duration-700">
+                    </div>
+                    <div class="bg-darkbg flex-1 overflow-hidden rounded group relative border border-gray-700">
+                        <img src="./assets/img/Dia Nacional do Dentista (Louzada).jpg" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition duration-700">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 max-w-6xl mx-auto fade-in-section">
+        <div class="mb-16">
+            <div class="border-t-4 border-brand w-12 mb-6"></div>
+            <h2 class="text-3xl font-black text-brand uppercase leading-none">MOTION & <span class="text-white font-light">ILLUSTRATION</span></h2>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="aspect-square bg-panel rounded overflow-hidden border border-gray-800">
+                <img src="./assets/img/Teste Ícone Animado.gif" class="w-full h-full object-cover hover:scale-110 transition duration-700">
+            </div>
+            <div class="aspect-square bg-panel rounded overflow-hidden border border-gray-800">
+                <img src="./assets/img/Teste Silhueta Animada.gif" class="w-full h-full object-cover hover:scale-110 transition duration-700">
+            </div>
+            <div class="aspect-square bg-panel rounded overflow-hidden border border-gray-800">
+                <img src="./assets/img/Ícone Animado 2.gif" class="w-full h-full object-cover hover:scale-110 transition duration-700">
+            </div>
+            <div class="aspect-square bg-panel rounded overflow-hidden border border-gray-800">
+                <img src="./assets/img/Ícone.gif" class="w-full h-full object-cover hover:scale-110 transition duration-700">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 bg-panel border-t border-gray-800 fade-in-section">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-2xl font-light text-white uppercase tracking-widest mb-4">LORE & <span class="font-black text-brand">CONCEITO</span></h2>
+            <p class="text-gray-400 mb-10 text-sm">Visualização de processos e escrita criativa.</p>
+            
+            <a href="./assets/img/Schere.pdf" target="_blank" class="inline-block border border-brand text-brand px-10 py-4 uppercase tracking-widest text-sm font-semibold hover:bg-brand hover:text-darkbg transition duration-300">
+                Ver Projeto Schere
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-black py-20 text-center border-t border-gray-900 fade-in-section">
+        <p class="text-gray-500 tracking-widest text-xs uppercase mb-4 font-bold">Contato Direto</p>
+        <a href="mailto:matheusmelofernandes70@gmail.com" class="text-white hover:text-brand font-black tracking-wider text-2xl md:text-4xl transition duration-500 border-b-2 border-transparent hover:border-brand pb-2">
+            matheusmelofernandes70@gmail.com
+        </a>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
